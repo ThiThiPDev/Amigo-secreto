@@ -20,11 +20,11 @@ Este projeto consiste em uma plataforma para organização de sorteios de Amigo 
 
 ### ✔️ Funcionalidades 
 
-- Cadastro de participantes: Permite adicionar nomes à lista de participantes de forma simples e rápida.
-- Validação de entrada: Impede o cadastro de nomes vazios, garantindo que apenas participantes válidos sejam adicionados.
-- Lista dinâmica: Os participantes cadastrados são exibidos automaticamente na tela conforme são adicionados.
-- Sorteio aleatório: Seleciona um participante da lista de forma totalmente aleatória para revelar o amigo secreto.
-- Design responsivo: Interface adaptada para smartphones, tablets e computadores, garantindo uma boa experiência em qualquer tamanho de tela.
+- **Cadastro de participantes**: Permite adicionar nomes à lista de participantes de forma simples e rápida.
+- **Validação de entrada**: Impede o cadastro de nomes vazios, garantindo que apenas participantes válidos sejam adicionados.
+- **Lista dinâmica**: Os participantes cadastrados são exibidos automaticamente na tela conforme são adicionados.
+- **Sorteio aleatório**: Seleciona um participante da lista de forma totalmente aleatória para revelar o amigo secreto.
+- **Design responsivo**: Interface adaptada para smartphones, tablets e computadores, garantindo uma boa experiência em qualquer tamanho de tela.
 
 
 ### 🕹️ Como Jogar ?
