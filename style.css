@@ -38,12 +38,13 @@ body {
   background-color: #000;
   border: 1px solid #1875e8;
   filter: drop-shadow(0px 0px 30px #1875e8);
-  height: 871px;
+  min-height: 871px;
+  height: auto;
   left: 50%;
   margin: 0 auto;
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: calc(50% - 435.5px);
+  transform: translateX(-50%);
   width: 75%;
   z-index: 1;
 }
@@ -94,6 +95,10 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 110%;
+}
+
+.prizeDraw__title {
+  text-align: center;
 }
 
 .form {
@@ -161,7 +166,8 @@ body {
   font-size: 21px;
   font-style: italic;
   font-weight: 700;
-  height: 199px;
+  min-height: 199px;
+  height: auto;
   line-height: 160%;
   margin-top: 1rem;
 }
@@ -203,4 +209,113 @@ body {
 .secondary {
   background-color: #fff;
   color: #1875e8;
+}
+
+@media screen and (max-width: 1250px) {
+  .content {
+    min-height: 1px;
+    height: auto;
+    left: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 1%;
+    transform: translateX(-50%);
+    width: 95%;
+    z-index: 1;
+  }
+
+  .prizeDraw__title {
+    text-align: center;
+    margin-top: -25px;
+  }
+
+  .prizeDraw__container {
+    min-height: 199px;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .background__detail {
+    background-color: #00f4bf;
+    height: calc(100% - 200px);
+    top: 115px;
+  }
+
+  .content__main {
+    padding: 25px;
+  }
+
+  .section__title {
+    text-align: center;
+    width: 100%;
+    transform: translateY(10px);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 80%;
+    margin: 0 0 80px 0;
+  }
+
+  .page__image {
+    display: none;
+  }
+
+  .form__label {
+    text-align: center;
+    font-size: 21px;
+    margin-top: -40px;
+    margin-bottom: 25px;
+  }
+
+  .section--results {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section--results article {
+    width: 100%;
+  }
+
+  .friends__title {
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    margin-top: -50px;
+  }
+
+  .friends__container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form__input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form__buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .button {
+    width: 144px;
+    margin-top: -5px;
+  }
+
+  .form__link {
+    width: 100%;
+  }
+
+  .content__corner-rectangle {
+    bottom: -10px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    width: 335px;
+    z-index: 3;
+  }
 }
