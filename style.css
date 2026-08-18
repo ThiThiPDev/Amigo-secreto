@@ -309,7 +309,7 @@ body {
   }
 
   .content__corner-rectangle {
-    bottom: -5px;
+    bottom: -10px;
     height: 25px;
     position: absolute;
     right: 10px;
